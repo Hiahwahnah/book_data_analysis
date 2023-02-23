@@ -1,6 +1,28 @@
-# book_data_analysis
+# Book Data Analysis
 
 A brief summary of what your project is all about and what it aims to accomplish.
+
+**Features Included**
+
+### Read Data In
+
+* Read in a data file from a local CSV
+
+### Manipulate and Clean Your Data
+
+* 
+
+### Analyze Your Data
+
+* 
+
+### Visualize Your Data
+
+* 
+
+### Interpret Your Data and Graphical Output
+
+* 
 
 **Required Packages**
 
@@ -8,20 +30,14 @@ A brief summary of what your project is all about and what it aims to accomplish
 * matplotlib
 * numpy
 
-**Features**
-
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
-* Feature 5
-
 **Instructions**
 
 To run this project, you will need to install the required packages listed above. To do so, run the following command in your terminal:
 
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 Once the packages are installed, you can run the project by running the main.py file.
 
