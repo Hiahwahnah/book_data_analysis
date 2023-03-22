@@ -28,14 +28,12 @@ A brief summary of what your project is all about and what it aims to accomplish
 
 * pandas
 * matplotlib
-* numpy
 
 **Instructions**
 
 To run this project, you will need to install the required packages listed above. To do so, run the following command in your terminal:
 
-
-```
+``` pythyon
 pip install -r requirements.txt
 ```
 
