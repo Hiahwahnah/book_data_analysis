@@ -1,6 +1,6 @@
 # Book Data Analysis
 
-A brief summary of what your project is all about and what it aims to accomplish.
+I did this project for the Code Louisville - Data Analysis program. The requirements ask for me to read in data, clean it, analyze it, and interpret it. I chose to use a dataset that featured over 9000 titles and data about those titles according to Goodreads.com. Going into this project the goal was to see what the top genres were based on the ratings from Goodreads.com. I was able to find that and much more about these titles while doing this project.
 
 **Features Included**
 
@@ -22,11 +22,11 @@ A brief summary of what your project is all about and what it aims to accomplish
 
 ### Analyze Your Data
 
-* Use mean() function to find the average rating of all the titles on a scale of 1-5
+* Use .mean() function to find the average rating of all the titles on a scale of 1-5
 * Use .sum() to find the total number of pages in all of the books combined
 * Use .nlargest() to create a new dataframe that shows the 5 titles with the highest number of pages
 * Use .count() function along with .nlargest() function to show the 5 authors with the most titles
-* Use .mean() function along with .nlargest() function to show top 5 genres based on ratings as well as show that information on a graph
+* Use .groupby(), .agg(), and sort_values() functions to identify the top five book genres based on their average rating and total number of reviews, but only considering genres that have at least 100 reviews.
 
 ### Visualize Your Data
 
@@ -35,7 +35,11 @@ A brief summary of what your project is all about and what it aims to accomplish
 
 ### Interpret Your Data and Graphical Output
 
-* 
+* The average rating between all titles is 3.96 out of 5. I found this to be higher than I expected.
+* There is a total of 2882223 pages combined between all of the titles. 
+* The title with the highest number of pages was Harry Potter Boxset (Books #1-7). Not surprising as there are 7 very large titles rolled into 1 title.
+* The author with the most titles was Lynsay Sands with 26. This wassurprising because I expected someone like Stephen King.
+* Finally the top genre based on ratings was the Urban genre. I expected it to be Science Fiction or Classics but, alas, that was not the case.
 
 **Required Packages**
 
