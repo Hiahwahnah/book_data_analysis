@@ -17,8 +17,8 @@ I did this project for the Code Louisville - Data Analysis program. The requirem
 * Use isnull().sum() to see the number of missing values in the dataset
 * Use dropna() function to remove the rows that contain null values
 * Use split() function to drop the comma and everything after it in the genre column
-* Convert the review_count and the rating_count columns to float64 using astype() function
-* Rename the "rate" colum to "rating" using the rename() function
+* Convert the review_count column to int using astype() function
+* Rename the "rate" column to "rating" using the rename() function
 
 ### Analyze Your Data
 
